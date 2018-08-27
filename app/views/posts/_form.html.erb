@@ -1,3 +1,5 @@
+<h1>Create a new Post</h1>
+
 <%= form_for post do |f| %>
   <%= f.label "Title" %>
   <%= f.text_field :title %><br>
@@ -9,4 +11,4 @@
     <%= categories_fields.text_field :name %>
   <% end %>
   <%= f.submit %>
-<% end %> 
+<% end %>
